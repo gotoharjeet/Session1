@@ -174,13 +174,11 @@ public class IfQuiz {
 		public static void main(String[] args) 
 		{
 			IfQuiz ifquiz = new IfQuiz();
-			
 			ifquiz.firstProblem();
 			ifquiz.secondProblem();
-			ifquiz.thirdProblem();
-			ifquiz.fourthProblem();
-			ifquiz.fifthProblem();
-			ifquiz.sixthProblem();
+			//ifquiz.thirdProblem();
+			//ifquiz.fourthProblem();
+			//ifquiz.fifthProblem();
 			
 		}
 	
