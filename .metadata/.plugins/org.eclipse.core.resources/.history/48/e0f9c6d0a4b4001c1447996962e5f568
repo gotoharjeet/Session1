@@ -8,9 +8,9 @@ public class Try {
 	
 	public void first() {
 		
-		//if(true)
+		if(true)
 			//System.out.println("heello");
-			//int x=10;
+			int x=10;
 		
 		/*System.out.println("Please enter the option ");
 		option=obj.next().charAt(0);

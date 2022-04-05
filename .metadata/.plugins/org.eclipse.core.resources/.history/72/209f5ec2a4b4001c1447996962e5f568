@@ -241,7 +241,7 @@ public class IfQuiz {
 		{
 			IfQuiz ifquiz = new IfQuiz();
 			
-			ifquiz.firstProblem();
+			/*ifquiz.firstProblem();
 			ifquiz.secondProblem();
 			ifquiz.thirdProblem();
 			ifquiz.fourthProblem();
@@ -250,7 +250,7 @@ public class IfQuiz {
 			ifquiz.seventhProblem();
 			ifquiz.eigthProblem();
 			ifquiz.ninethProblem();
-			ifquiz.tenthProblem();
+			ifquiz.tenthProblem();*/
 		}
 	
 

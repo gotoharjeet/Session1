@@ -8,7 +8,7 @@ public class Try {
 	
 	public void first() {
 		
-		//if(true)
+		if(true)
 			//System.out.println("heello");
 			//int x=10;
 		
