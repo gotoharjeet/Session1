@@ -149,6 +149,7 @@ public class IfQuiz {
 		
 		public void sixthProblem()
 		{
+			//Sixth Problem
 			System.out.println("boolean b=false");
 
 			System.out.println("if(b==false)");
@@ -171,17 +172,85 @@ public class IfQuiz {
 				correct_count+=20;
 		}
 		
+		
+		public void seventhProblem()
+		{
+			//Seventh Problem
+			System.out.println("if(true)");
+		    String syso1="\tSystem.out.println("+"Hello"+");";
+			System.out.println(syso1+"\n");	
+			
+			System.out.println("A:Hello   B:Hi   C:CE   D:RE");
+			option=obj.next().charAt(0);
+			System.out.println("Selected Option :"+option);
+			
+			//check the selection
+			if(option == 'A' || option == 'a' )
+				correct_count+=20;
+		}
+		
+		public void eigthProblem()
+		{
+			//Eighth Problem
+			System.out.println("if(true);"+"\n");
+		    
+			System.out.println("A:Blank   B:CE   D:RE");
+			option=obj.next().charAt(0);
+			System.out.println("Selected Option :"+option);
+			
+			//check the selection
+			if(option == 'A' || option == 'a' )
+				correct_count+=20;
+		}
+		
+		public void ninethProblem()
+		{
+			//Nineth Problem
+			System.out.println("if(true)");
+		    String syso1="\tint x=10;";
+			System.out.println(syso1+"\n");	
+			
+			System.out.println("A:Blank   B:CE   C:RE D:Unreachable");
+			option=obj.next().charAt(0);
+			System.out.println("Selected Option :"+option);
+			
+			//check the selection
+			if(option == 'B' || option == 'b' )
+				correct_count+=20;
+		}
+		
+		public void tenthProblem()
+		{
+			//Seventh Problem
+			System.out.println("if(true)");
+			System.out.println("{");
+		    String syso1="\tint x=10;";
+		    System.out.println(syso1);
+		    System.out.println("}"+"\n");
+				
+			
+			System.out.println("A:Blank   B:CE   C:RE  D:UnReachable");
+			option=obj.next().charAt(0);
+			System.out.println("Selected Option :"+option);
+			
+			//check the selection
+			if(option == 'A' || option == 'a' )
+				correct_count+=20;
+		}
 		public static void main(String[] args) 
 		{
 			IfQuiz ifquiz = new IfQuiz();
 			
-			ifquiz.firstProblem();
+			/*ifquiz.firstProblem();
 			ifquiz.secondProblem();
 			ifquiz.thirdProblem();
 			ifquiz.fourthProblem();
 			ifquiz.fifthProblem();
 			ifquiz.sixthProblem();
-			
+			ifquiz.seventhProblem();
+			ifquiz.eigthProblem();
+			ifquiz.ninethProblem();
+			ifquiz.tenthProblem();*/
 		}
 	
 
