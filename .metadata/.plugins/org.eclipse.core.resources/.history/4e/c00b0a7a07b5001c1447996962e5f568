@@ -1,0 +1,39 @@
+package ifElseQuiz;
+
+import java.util.Scanner;
+import commonFuctions.Selection_DisplayOption;
+public class Try {
+	public char option;
+	public static Scanner obj=new Scanner(System.in);
+	
+	public void first() {
+		if(true)
+			if(true)
+				System.out.println("Hello");
+			else
+				System.out.println("Hi");
+		System.out.println("Dangaling else");
+		//if(true)
+			//System.out.println("heello");
+			//int x=10;
+		
+		/*System.out.println("Please enter the option ");
+		option=obj.next().charAt(0);
+		if (option == 'A' || option == 'a')
+		{
+			System.out.println(option);
+		}*/
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Selection_DisplayOption sop=new Selection_DisplayOption();
+		Try t=new Try();
+		t.first();
+		String[] s= {"A:Hello","B:Hi","C:CE","D:RE"};
+		sop.selOptions(s);
+		
+	}
+
+}

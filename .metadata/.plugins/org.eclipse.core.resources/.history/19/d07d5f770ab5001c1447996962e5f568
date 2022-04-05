@@ -1,0 +1,5 @@
+package singletonClasses;
+
+public class Instance_Scanner {
+
+}

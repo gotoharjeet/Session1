@@ -237,11 +237,32 @@ public class IfQuiz {
 			if(option == 'A' || option == 'a' )
 				correct_count+=20;
 		}
+		
+		public void eleventhProblem()
+		{
+			//eleventh Problem
+			System.out.println("if(true)");
+			System.out.println("   if(true)");
+			String syso1="       System.out.println("+"Hello"+");";
+			System.out.println(syso1);
+			System.out.println("else");
+			String syso2="\tSystem.out.println("+"Hi"+");";
+		    System.out.println(syso2+"\n\n");
+				
+			
+			System.out.println("A:Hello   B:CE   C:RE  D:UnReachable");
+			option=obj.next().charAt(0);
+			System.out.println("Selected Option :"+option);
+			
+			//check the selection
+			if(option == 'A' || option == 'a' )
+				correct_count+=20;
+		}
 		public static void main(String[] args) 
 		{
 			IfQuiz ifquiz = new IfQuiz();
 			
-			ifquiz.firstProblem();
+			/*ifquiz.firstProblem();
 			ifquiz.secondProblem();
 			ifquiz.thirdProblem();
 			ifquiz.fourthProblem();
@@ -250,7 +271,8 @@ public class IfQuiz {
 			ifquiz.seventhProblem();
 			ifquiz.eigthProblem();
 			ifquiz.ninethProblem();
-			ifquiz.tenthProblem();
+			ifquiz.tenthProblem();*/
+			ifquiz.eleventhProblem();
 		}
 	
 

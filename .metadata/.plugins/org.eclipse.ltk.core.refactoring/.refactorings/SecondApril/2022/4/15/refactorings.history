@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;commonFuctions.Selection_Option&apos; to &apos;Selection_DisplayOption&apos;&#x0D;&#x0A;- Original project: &apos;SecondApril&apos;&#x0D;&#x0A;- Original element: &apos;commonFuctions.Selection_Option&apos;&#x0D;&#x0A;- Renamed element: &apos;commonFuctions.Selection_DisplayOption&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Selection_Option&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;commonFuctions{Selection_Option.java[Selection_Option" matchStrategy="1" name="Selection_DisplayOption" qualified="false" references="true" similarDeclarations="false" stamp="1649180312419" textual="false" version="1.0"/>
+</session>
