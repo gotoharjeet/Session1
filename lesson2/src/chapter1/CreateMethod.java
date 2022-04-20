@@ -23,13 +23,13 @@ public class CreateMethod extends CreateMethod_A
 		
 		CreateMethod_A ca=new CreateMethod_A();
 		ca.m1();
-		ca.m2();
+		//ca.m2();
 		CreateMethod cm=new CreateMethod();
 		cm.m1();
 		cm.m2();
 		CreateMethod_A ca1=new CreateMethod();
 		ca1.m1();
-		ca1.m2();
+		//ca1.m2();
 		
 	}
 
