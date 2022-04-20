@@ -1,9 +1,0 @@
-package commonFuctions;
-
-public class Selection_Option {
-	
-	public void selOptions(String[] options)
-	{
-		System.out.println(options.length);
-	}
-}

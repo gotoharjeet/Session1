@@ -1,6 +1,0 @@
-package commonFuctions;
-
-public class Selection_Option {
-
-	public void option(String option)
-}
